@@ -34,7 +34,7 @@ owsearch your_username
 owsearch cjay
 ```
 #### Output:
-```cmd
+```
 CJay#11303: https://overwatch.blizzard.com/en-us/career/d174ad93fe20cafeb9a3%7Cef23eb1dd32d85ed167d8efd460342ab/
 CJay#21943: https://overwatch.blizzard.com/en-us/career/d174ad93fe23caf4bda3%7C91169a8784902e5daec95fddff89d736/
 CJAY#21567: https://overwatch.blizzard.com/en-us/career/d1748db3fe23caf8bfa7%7C6c7267d835792b4870062d4af07c02d0/
