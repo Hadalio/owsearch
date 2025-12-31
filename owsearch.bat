@@ -11,4 +11,4 @@ set "username=%1"
 set "url=https://overwatch.blizzard.com/en-us/search/account-by-name/%username%/"
 
 :: Use curl to get the JSON response and PowerShell to parse it
-curl -s "%url%" | powershell -Command "$json = $input | Out-String; $data = $json | ConvertFrom-Json; foreach ($item in $data) { '{0}: https://overwatch.blizzard.com/en-us/career/{1}/' -f $item.battleTag, $item.url }"
+curl -s "%url%" | powershell -Command "$json = $input | Out-String; $data = $json | ConvertFrom-Json; foreach ($item in $data) { '{0}: https://overwatch.blizzard.com/en-us/career/{1}/ (Title: {2})' -f $item.name, $item.url, $item.title.en_US }"
